@@ -14,12 +14,12 @@
  *************************      GLOBAL VARIABLES DECLARATION        *********************
  ****************************************************************************************/
 static Inverter inv;
-static PR PR_ialfa1;             //Alfa current controller
-static PR PR_ibeta1;             //Beta current controller
-static PR PR_ialfa51;             //Alfa current controller
-static PR PR_ibeta51;             //Beta current controller
-static PR PR_ialfa71;             //Alfa current controller
-static PR PR_ibeta71;             //Beta current controller
+static PR PR_ialfa;             //Alfa current controller
+static PR PR_ibeta;             //Beta current controller
+static PR PR_ialfa5;             //Alfa current controller
+static PR PR_ibeta5;             //Beta current controller
+static PR PR_ialfa7;             //Alfa current controller
+static PR PR_ibeta7;             //Beta current controller
 
 //Control loop references
 float Io_ref = 0;   //Peak
